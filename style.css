@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-size: 16px; */
+}
+
+body {
+  background-color: #63062a;
+  font-family: 'helvatica', sans-serif;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  
+}
+
+.todo-list {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: #fff;
+  width: 30%;
+  padding: 2rem 2rem;
+  margin-top: 10rem;
+  text-align: center;
+  border-radius: 20px 20px 20px 0;
+  margin-right: 2rem;
+}
+
+.form__input {
+  margin-bottom: 1.5rem;
+}
+
+.form__input > label {
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: .3rem;
+}
+
+.form__input > input {
+  width: 100%;
+  padding: .6rem;
+  border: 0;
+  background-color: #edf2f7;
+  font-size: 16px;
+  color: #000000a1;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: .6rem;
+  background: #da437d;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px 10px 10px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #63062a;
+}
+
+.error {
+  /* width: 100%; */
+  background-color: red;
+  color: white;
+  padding-block: .5rem;
+  border-radius: 5px 5px 5px 0;
+}
+
+.book__style {
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  list-style: none;
+  text-align: left;
+}
